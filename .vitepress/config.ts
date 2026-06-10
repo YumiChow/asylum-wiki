@@ -66,6 +66,7 @@ export default () => {
       config: (md) => {
         md.use(footnote)
       }
-    }
+    },
+    sitemap: { hostname: 'https://asylum.wiki' }
   })
 }
